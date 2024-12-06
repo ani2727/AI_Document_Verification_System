@@ -1,0 +1,13 @@
+prefix=/home/abc/Documents/AI_Document_Verification/server/venv
+exec_prefix=/home/abc/Documents/AI_Document_Verification/server/venv
+libdir=/home/abc/Documents/AI_Document_Verification/server/venv/lib
+sharedlibdir=/home/abc/Documents/AI_Document_Verification/server/venv/lib
+includedir=/home/abc/Documents/AI_Document_Verification/server/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

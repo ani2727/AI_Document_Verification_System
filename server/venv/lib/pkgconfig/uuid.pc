@@ -1,0 +1,11 @@
+prefix=/home/abc/Documents/AI_Document_Verification/server/venv
+exec_prefix=/home/abc/Documents/AI_Document_Verification/server/venv
+libdir=/home/abc/Documents/AI_Document_Verification/server/venv/lib
+includedir=/home/abc/Documents/AI_Document_Verification/server/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
